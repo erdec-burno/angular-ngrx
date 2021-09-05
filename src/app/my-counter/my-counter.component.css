@@ -1,0 +1,16 @@
+button {
+  width: 100%;
+  padding: 5px;
+  font-size: 1.15rem;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 400px;
+}
+.row div {
+  width: 100%;
+  margin: 0 3px;
+  text-align: center;
+}

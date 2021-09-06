@@ -1,0 +1,18 @@
+<h2>Work with [innerHTML]</h2>
+
+<div class="container">
+  <table width="100%" border="0" background="#ccc" cellpadding="3" cellspacing="3">
+    <tr>
+      <th></th>
+      <th>Title</th>
+      <th>Link</th>
+    </tr>
+    <tr *ngFor="let post of Posts">
+      <td>{{post.id}}</td>
+      <td>{{post.title}}</td>
+      <!-- <td>{{post.link}}</td> -->
+      <td [innerHTML]="CheckUrlLink(post.label, post.link)"></td>
+    </tr>
+  </table>
+</div>
+

@@ -7,11 +7,13 @@ import { environment } from '../environments/environment';
 import { AppComponent } from './app.component';
 import { MyCounterComponent } from './my-counter/my-counter.component';
 import { appReducer, metaReducers } from './store/reducers/app.reducer';
+import { PostsComponent } from './posts/posts.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    MyCounterComponent
+    MyCounterComponent,
+    PostsComponent
   ],
   imports: [
     BrowserModule,
